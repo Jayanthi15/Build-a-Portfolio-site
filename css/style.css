@@ -1,47 +1,60 @@
-body{
-    font-family: 'Lato', sans-serif;
+body {
+    font-family: "Lato", sans-serif;
     color: #5e6754;
     font-weight: 300;
 }
-.logo-image{
+
+.logo-image {
     margin-top: 20px;
 }
-.title-text{
+
+.title-text {
     margin-top: 22px;
 }
-.faded-text{
+
+.faded-text {
     color: #b9c1bf;
     font-weight: bold;
     padding-left: 10px;
 }
-.fat-text{
+
+.fat-text {
     font-weight: bold;
 }
-.thin-title{
+
+.thin-title {
     font-weight: 100;
 }
-.margin-top-minus-5{
+
+.margin-top-minus-5 {
     margin-top: -5px;
 }
-.margin-top-10{
+
+.margin-top-10 {
     margin-bottom: 10px;
 }
-.horizontal-ruler{
+
+.horizontal-ruler {
     color: #b9c1bf;
     background-color: #b9c1bf;
     height: 4px;
     border: none;
-    margin-right: 15px;
-    margin-left: 15px;
 }
-.margin-bottom-10{
+
+.margin-bottom-10 {
     margin-bottom: 10px;
 }
-.margin-bottom-5{
+
+.margin-bottom-5 {
     margin-bottom: 5px;
 }
+
+.header {
+    margin-bottom: 10px;
+}
+
 @media (max-width: 480px) {
-    .title-text{
+    .title-text {
         margin-top: 0;
     }
 }
